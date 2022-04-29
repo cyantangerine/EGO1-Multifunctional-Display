@@ -1,0 +1,367 @@
+
+*** Running vivado
+    with args -log HOME.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source HOME.tcl
+
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source HOME.tcl -notrace
+Command: synth_design -top HOME -part xc7a35tcsg324-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcsg324-3
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 18700
+WARNING: [Synth 8-2611] redeclaration of ansi port new_clk is not allowed [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/ClkDiv_100ms.v:29]
+WARNING: [Synth 8-2611] redeclaration of ansi port new_clk is not allowed [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/ClkDiv_10ms.v:29]
+WARNING: [Synth 8-2611] redeclaration of ansi port new_clk is not allowed [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/ClkDiv_500ms.v:29]
+WARNING: [Synth 8-6901] identifier 'clkdiv0' is used before its declaration [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M3_timer.v:47]
+WARNING: [Synth 8-6901] identifier 'resetms' is used before its declaration [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M3_timer.v:74]
+WARNING: [Synth 8-6901] identifier 'resetms' is used before its declaration [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M3_timer.v:74]
+WARNING: [Synth 8-6901] identifier 'xstar' is used before its declaration [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M3_timer.v:122]
+WARNING: [Synth 8-6901] identifier 'xstar' is used before its declaration [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M3_timer.v:124]
+WARNING: [Synth 8-6901] identifier 'x' is used before its declaration [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M3_timer.v:124]
+WARNING: [Synth 8-6901] identifier 'ONSTOP' is used before its declaration [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M4_Rtimer.v:127]
+WARNING: [Synth 8-6901] identifier 'ONSTOP' is used before its declaration [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M4_Rtimer.v:127]
+WARNING: [Synth 8-6901] identifier 'resetms' is used before its declaration [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M4_Rtimer.v:149]
+WARNING: [Synth 8-6901] identifier 'resetms' is used before its declaration [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M4_Rtimer.v:149]
+WARNING: [Synth 8-6901] identifier 'xstar' is used before its declaration [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M4_Rtimer.v:237]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1137.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'HOME' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/HOME.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ClkDiv_100ms' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/ClkDiv_100ms.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ClkDiv_100ms' (1#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/ClkDiv_100ms.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ClkDiv_500ms' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/ClkDiv_500ms.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ClkDiv_500ms' (2#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/ClkDiv_500ms.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DIRECT1to8_16bit' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/DIRECT1to8_16bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DIRECT1to8_16bit' (3#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/DIRECT1to8_16bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'M0_ModeSelecter' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M0_ModeSelecter.v:23]
+INFO: [Synth 8-6157] synthesizing module 'seg7_starcontrol' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/seg7_starcontrol.v:23]
+INFO: [Synth 8-6157] synthesizing module 'seg7' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/seg7.v:23]
+INFO: [Synth 8-226] default block is never used [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/seg7.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'seg7' (4#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/seg7.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'seg7_starcontrol' (5#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/seg7_starcontrol.v:23]
+WARNING: [Synth 8-7071] port 'staring' of module 'seg7_starcontrol' is unconnected for instance 'M0_seg7_0' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M0_ModeSelecter.v:105]
+WARNING: [Synth 8-7023] instance 'M0_seg7_0' of module 'seg7_starcontrol' has 13 connections declared, but only 12 given [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M0_ModeSelecter.v:105]
+INFO: [Synth 8-6155] done synthesizing module 'M0_ModeSelecter' (6#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M0_ModeSelecter.v:23]
+WARNING: [Synth 8-689] width (16) of port connection 'IN_BTN' does not match port width (5) of module 'M0_ModeSelecter' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/HOME.v:114]
+INFO: [Synth 8-6157] synthesizing module 'M1_TextViewer' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M1_TestViewer.v:23]
+INFO: [Synth 8-6157] synthesizing module 'viewer' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/viewer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'viewer' (7#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/viewer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'M1_TextViewer' (8#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M1_TestViewer.v:23]
+WARNING: [Synth 8-689] width (16) of port connection 'IN_BTN' does not match port width (5) of module 'M1_TextViewer' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/HOME.v:130]
+INFO: [Synth 8-6157] synthesizing module 'M2_Counter' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M2_Counter.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ClkDiv_10ms' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/ClkDiv_10ms.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ClkDiv_10ms' (9#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/ClkDiv_10ms.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BinToBCD_32bit' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/BinToBCD.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'BinToBCD_32bit' (10#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/BinToBCD.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BCDToSeg7_32bit' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/BCDToSeg7.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'BCDToSeg7_32bit' (11#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/BCDToSeg7.v:23]
+WARNING: [Synth 8-7071] port 'staring' of module 'seg7_starcontrol' is unconnected for instance 'seg7_0' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M2_Counter.v:100]
+WARNING: [Synth 8-7023] instance 'seg7_0' of module 'seg7_starcontrol' has 13 connections declared, but only 12 given [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M2_Counter.v:100]
+INFO: [Synth 8-6155] done synthesizing module 'M2_Counter' (12#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M2_Counter.v:23]
+WARNING: [Synth 8-689] width (16) of port connection 'IN_BTN' does not match port width (5) of module 'M2_Counter' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/HOME.v:144]
+INFO: [Synth 8-6157] synthesizing module 'M3_timer' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M3_timer.v:23]
+WARNING: [Synth 8-6090] variable 'clkdiv0' is written by both blocking and non-blocking assignments, entire logic could be removed [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M3_timer.v:68]
+WARNING: [Synth 8-6090] variable 'clkdiv0' is written by both blocking and non-blocking assignments, entire logic could be removed [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M3_timer.v:70]
+WARNING: [Synth 8-567] referenced signal 'reset' should be on the sensitivity list [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M3_timer.v:120]
+WARNING: [Synth 8-567] referenced signal 'x' should be on the sensitivity list [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M3_timer.v:120]
+INFO: [Synth 8-6157] synthesizing module 'BinToBCD_8bit' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/BinToBCD_8bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'BinToBCD_8bit' (13#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/BinToBCD_8bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BCDToSeg7_8bit' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/BCDToSeg7_8bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'BCDToSeg7_8bit' (14#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/BCDToSeg7_8bit.v:23]
+WARNING: [Synth 8-7071] port 'staring' of module 'seg7_starcontrol' is unconnected for instance 'seg7_0' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M3_timer.v:180]
+WARNING: [Synth 8-7023] instance 'seg7_0' of module 'seg7_starcontrol' has 13 connections declared, but only 12 given [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M3_timer.v:180]
+INFO: [Synth 8-6155] done synthesizing module 'M3_timer' (15#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M3_timer.v:23]
+WARNING: [Synth 8-689] width (16) of port connection 'IN_BTN' does not match port width (5) of module 'M3_timer' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/HOME.v:158]
+INFO: [Synth 8-6157] synthesizing module 'M4_Rtimer' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M4_Rtimer.v:44]
+WARNING: [Synth 8-567] referenced signal 'sec' should be on the sensitivity list [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M4_Rtimer.v:218]
+WARNING: [Synth 8-567] referenced signal 'min' should be on the sensitivity list [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M4_Rtimer.v:218]
+WARNING: [Synth 8-567] referenced signal 'hour' should be on the sensitivity list [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M4_Rtimer.v:218]
+WARNING: [Synth 8-567] referenced signal 'ms' should be on the sensitivity list [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M4_Rtimer.v:218]
+WARNING: [Synth 8-567] referenced signal 'IN_SWITCH' should be on the sensitivity list [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M4_Rtimer.v:218]
+WARNING: [Synth 8-567] referenced signal 'inset' should be on the sensitivity list [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M4_Rtimer.v:218]
+INFO: [Synth 8-6157] synthesizing module 'seg7_starcontrolorigin' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/seg7_starcontrolorigin.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'seg7_starcontrolorigin' (16#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/seg7_starcontrolorigin.v:23]
+WARNING: [Synth 8-7071] port 'staring' of module 'seg7_starcontrolorigin' is unconnected for instance 'seg7_0' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M4_Rtimer.v:272]
+WARNING: [Synth 8-7023] instance 'seg7_0' of module 'seg7_starcontrolorigin' has 14 connections declared, but only 13 given [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M4_Rtimer.v:272]
+INFO: [Synth 8-6155] done synthesizing module 'M4_Rtimer' (17#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M4_Rtimer.v:44]
+WARNING: [Synth 8-689] width (16) of port connection 'IN_BTN' does not match port width (5) of module 'M4_Rtimer' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/HOME.v:172]
+INFO: [Synth 8-6157] synthesizing module 'MUX8to1_16bit' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/MUX8to1_16bit.v:23]
+INFO: [Synth 8-226] default block is never used [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/MUX8to1_16bit.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'MUX8to1_16bit' (18#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/MUX8to1_16bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX8to1_7bit' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/MUX8to1_7bit.v:23]
+INFO: [Synth 8-226] default block is never used [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/MUX8to1_7bit.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'MUX8to1_7bit' (19#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/MUX8to1_7bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX8to1_4bit' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/MUX8to1_4bit.v:24]
+INFO: [Synth 8-226] default block is never used [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/MUX8to1_4bit.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'MUX8to1_4bit' (20#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/MUX8to1_4bit.v:24]
+INFO: [Synth 8-6157] synthesizing module 'MUX8to1_1bit' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/MUX8to1.v:23]
+INFO: [Synth 8-226] default block is never used [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/MUX8to1.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'MUX8to1_1bit' (21#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/MUX8to1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'HOME' (22#1) [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/HOME.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1137.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1137.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1137.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 1137.773 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/VivadoProject/MyProject/MyProject.srcs/constrs_1/new/con_seg7.xdc]
+Finished Parsing XDC File [E:/VivadoProject/MyProject/MyProject.srcs/constrs_1/new/con_seg7.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/VivadoProject/MyProject/MyProject.srcs/constrs_1/new/con_seg7.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/HOME_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/HOME_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1138.699 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1138.699 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1138.699 ; gain = 0.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1138.699 ; gain = 0.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1138.699 ; gain = 0.926
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'num_reg' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/viewer.v:171]
+WARNING: [Synth 8-327] inferring latch for variable 'OUT_LED_reg' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M3_timer.v:130]
+WARNING: [Synth 8-327] inferring latch for variable 'OUT_LED_reg' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M4_Rtimer.v:201]
+WARNING: [Synth 8-327] inferring latch for variable 'star_reg' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M4_Rtimer.v:227]
+WARNING: [Synth 8-327] inferring latch for variable 'LASTONSTOP_reg' [E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/M4_Rtimer.v:220]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1138.699 ; gain = 0.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   28 Bit       Adders := 2     
+	   2 Input   27 Bit       Adders := 1     
+	   2 Input   24 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 14    
+	   2 Input    6 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               28 Bit    Registers := 2     
+	               24 Bit    Registers := 1     
+	                8 Bit    Registers := 9     
+	                6 Bit    Registers := 11    
+	                3 Bit    Registers := 3     
+	                1 Bit    Registers := 37    
++---Muxes : 
+	   2 Input   48 Bit        Muxes := 6     
+	   6 Input   48 Bit        Muxes := 2     
+	   2 Input   32 Bit        Muxes := 3     
+	   2 Input   28 Bit        Muxes := 2     
+	   2 Input   27 Bit        Muxes := 1     
+	   2 Input   24 Bit        Muxes := 2     
+	   8 Input   16 Bit        Muxes := 16    
+	  16 Input   15 Bit        Muxes := 2     
+	  15 Input   15 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 87    
+	   6 Input    8 Bit        Muxes := 2     
+	   5 Input    8 Bit        Muxes := 2     
+	   3 Input    7 Bit        Muxes := 1     
+	   4 Input    6 Bit        Muxes := 10    
+	   2 Input    6 Bit        Muxes := 44    
+	   2 Input    3 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 6     
+	   4 Input    1 Bit        Muxes := 10    
+	   2 Input    1 Bit        Muxes := 70    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:46 . Memory (MB): peak = 1388.375 ; gain = 250.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++-----------------------+---------------------+---------------+----------------+
+|Module Name            | RTL Object          | Depth x Width | Implemented As | 
++-----------------------+---------------------+---------------+----------------+
+|seg7                   | a_to_g1             | 64x7          | LUT            | 
+|seg7                   | a_to_g2             | 64x7          | LUT            | 
+|M0_ModeSelecter        | M0_seg7_0/t/a_to_g1 | 64x7          | LUT            | 
+|M0_ModeSelecter        | M0_seg7_0/t/a_to_g2 | 64x7          | LUT            | 
+|M1_TextViewer          | t/seg7_0/t/a_to_g1  | 64x7          | LUT            | 
+|M1_TextViewer          | t/seg7_0/t/a_to_g2  | 64x7          | LUT            | 
+|M2_Counter             | seg7_0/t/a_to_g1    | 64x7          | LUT            | 
+|M2_Counter             | seg7_0/t/a_to_g2    | 64x7          | LUT            | 
+|seg7_starcontrol       | t/a_to_g1           | 64x7          | LUT            | 
+|seg7_starcontrol       | t/a_to_g2           | 64x7          | LUT            | 
+|seg7_starcontrolorigin | t/a_to_g1           | 64x7          | LUT            | 
+|seg7_starcontrolorigin | t/a_to_g2           | 64x7          | LUT            | 
++-----------------------+---------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:51 ; elapsed = 00:00:51 . Memory (MB): peak = 1388.375 ; gain = 250.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 1388.375 ; gain = 250.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:53 ; elapsed = 00:00:53 . Memory (MB): peak = 1388.375 ; gain = 250.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:56 ; elapsed = 00:00:56 . Memory (MB): peak = 1388.375 ; gain = 250.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:56 ; elapsed = 00:00:56 . Memory (MB): peak = 1388.375 ; gain = 250.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:56 ; elapsed = 00:00:56 . Memory (MB): peak = 1388.375 ; gain = 250.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:56 ; elapsed = 00:00:56 . Memory (MB): peak = 1388.375 ; gain = 250.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:56 ; elapsed = 00:00:56 . Memory (MB): peak = 1388.375 ; gain = 250.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:56 ; elapsed = 00:00:56 . Memory (MB): peak = 1388.375 ; gain = 250.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |   471|
+|3     |LUT1   |    92|
+|4     |LUT2   |   311|
+|5     |LUT3   |   488|
+|6     |LUT4   |   341|
+|7     |LUT5   |   443|
+|8     |LUT6   |  1507|
+|9     |MUXF7  |    30|
+|10    |FDRE   |   612|
+|11    |LD     |    53|
+|12    |LDCP   |    28|
+|13    |LDP    |     2|
+|14    |IBUF   |    22|
+|15    |OBUF   |    40|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:56 ; elapsed = 00:00:56 . Memory (MB): peak = 1388.375 ; gain = 250.602
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:49 ; elapsed = 00:00:55 . Memory (MB): peak = 1388.375 ; gain = 249.676
+Synthesis Optimization Complete : Time (s): cpu = 00:00:56 ; elapsed = 00:00:57 . Memory (MB): peak = 1388.375 ; gain = 250.602
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.067 . Memory (MB): peak = 1388.375 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 584 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1388.375 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 83 instances were transformed.
+  LD => LDCE: 53 instances
+  LDCP => LDCP (GND, LDCE, LUT3(x2), VCC): 28 instances
+  LDP => LDPE: 2 instances
+
+Synth Design complete, checksum: 6dd71529
+INFO: [Common 17-83] Releasing license: Synthesis
+64 Infos, 42 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:01:01 . Memory (MB): peak = 1388.375 ; gain = 250.602
+INFO: [Common 17-1381] The checkpoint 'E:/VivadoProject/MyProject/MyProject.runs/synth_1/HOME.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file HOME_utilization_synth.rpt -pb HOME_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 14 11:45:55 2021...

@@ -1,0 +1,9 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+E:/VivadoProject/MyProject/MyProject.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+E:/VivadoProject/MyProject/MyProject.srcs/sim_1/new/sim_seg.v,1634956376,verilog,,,,sim_seg,,,,,,,,
+E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/seg7.v,1634958363,verilog,,E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/seg7_starcontrol.v,,seg7,,,,,,,,
+E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/seg7_starcontrol.v,1634958802,verilog,,E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/viewer.v,,seg7_starcontrol,,,,,,,,
+E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/viewer.v,1634961436,verilog,,E:/VivadoProject/MyProject/MyProject.srcs/sim_1/new/sim_seg.v,,viewer,,,,,,,,
