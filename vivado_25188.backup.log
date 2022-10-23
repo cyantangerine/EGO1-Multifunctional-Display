@@ -2,21 +2,22 @@
 # Vivado v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Sun Oct 23 16:35:04 2022
-# Process ID: 48352
+# Start of session at: Sun Oct  2 16:55:19 2022
+# Process ID: 25188
 # Current directory: E:/VivadoProject/MyProject
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent44752 E:\VivadoProject\MyProject\MultiDisplay.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17532 E:\VivadoProject\MyProject\MyProject.xpr
 # Log file: E:/VivadoProject/MyProject/vivado.log
 # Journal file: E:/VivadoProject/MyProject\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project E:/VivadoProject/MyProject/MultiDisplay.xpr
-WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/VivadoProject/MyProject/MultiDisplay.gen/sources_1'.
+open_project E:/VivadoProject/MyProject/MyProject.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/VivadoProject/MyProject/MyProject.gen/sources_1'.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/ProgramFiles/Xilinx/Vivado/2021.1/data/ip'.
-open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 1135.797 ; gain = 0.000
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1135.465 ; gain = 0.000
 update_compile_order -fileset sources_1
-reset_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Oct  2 16:57:41 2022...

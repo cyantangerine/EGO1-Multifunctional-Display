@@ -1,0 +1,127 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:33 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 48352
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sun Oct 23 16:35:24 CST 2022
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 123
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+Scale size: 18
+
+Java version: 	11.0.2 64-bit
+Java home: 	E:/ProgramFiles/Xilinx/Vivado/2021.1/tps/win64/jre11.0.2
+Java executable: 	E:/ProgramFiles/Xilinx/Vivado/2021.1/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	user2
+User home directory: C:/Users/user
+User working directory: E:/VivadoProject/MyProject
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: E:/ProgramFiles/Xilinx/Vivado
+HDI_APPROOT: E:/ProgramFiles/Xilinx/Vivado/2021.1
+RDI_DATADIR: E:/ProgramFiles/Xilinx/Vivado/2021.1/data
+RDI_BINDIR: E:/ProgramFiles/Xilinx/Vivado/2021.1/bin
+
+Vivado preferences file: D:/Downloads/CDiskMove/AppData/Roaming/Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: D:/Downloads/CDiskMove/AppData/Roaming/Xilinx/Vivado/2021.1/
+Vivado layouts directory: D:/Downloads/CDiskMove/AppData/Roaming/Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	E:/ProgramFiles/Xilinx/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	E:/VivadoProject/MyProject/vivado.log
+Vivado journal file: 	E:/VivadoProject/MyProject/vivado.jou
+Engine tmp dir: 	E:/VivadoProject/MyProject/.Xil/Vivado-48352-LAPTOP-BL8SG95L
+
+Xilinx Environment Variables
+----------------------------
+ANDROID_SDK_HOME: E:\ProgramFiles\AndroidSDK
+XILINX: E:/ProgramFiles/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: E:/ProgramFiles/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: E:/ProgramFiles/Xilinx/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: E:/ProgramFiles/Xilinx/Vivado/2021.1
+XILINX_VIVADO: E:/ProgramFiles/Xilinx/Vivado/2021.1
+XILINX_VIVADO_HLS: E:/ProgramFiles/Xilinx/Vivado/2021.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,147 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: E:\VivadoProject\MyProject\MultiDisplay.xpr. Version: Vivado v2021.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project E:/VivadoProject/MyProject/MultiDisplay.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 94 MB (+95646kb) [00:00:10]
+// [Engine Memory]: 1,147 MB (+1051494kb) [00:00:10]
+// [GUI Memory]: 113 MB (+15508kb) [00:00:10]
+// WARNING: HEventQueue.dispatchEvent() is taking  3620 ms.
+// Tcl Message: open_project E:/VivadoProject/MyProject/MultiDisplay.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/ProgramFiles/Xilinx/Vivado/2021.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,147 MB. GUI used memory: 66 MB. Current time: 10/23/22, 4:35:24 PM CST
+// Project name: MultiDisplay; location: E:/VivadoProject/MyProject; part: xc7a35tcsg324-3
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 1135.797 ; gain = 0.000 
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 119 MB (+314kb) [00:00:15]
+// [GUI Memory]: 129 MB (+4197kb) [00:00:17]
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // i
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i
+// [GUI Memory]: 140 MB (+4764kb) [00:01:26]
+// Elapsed time: 67 seconds
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aK
+// Tcl Command: 'rdi::info_commands {start_gu*}'
+// Tcl Command: 'rdi::info_commands {re*}'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // l
+// Tcl Command: 'rdi::info_commands {reset_project*}'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "reset_project", true); // l
+// Tcl Command: 'reset_project'
+// Tcl Command: 'reset_project'
+// Tcl Message: reset_project 
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 252, 150); // dS

@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="55" Path="E:/VivadoProject/MyProject/MyProject.xpr">
+<Project Version="7" Minor="55" Path="E:/VivadoProject/MyProject/MultiDisplay.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="a15936596f96444dab15a13276f27813"/>

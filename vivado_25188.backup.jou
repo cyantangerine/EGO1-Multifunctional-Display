@@ -2,14 +2,13 @@
 # Vivado v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Sun Oct 23 16:35:04 2022
-# Process ID: 48352
+# Start of session at: Sun Oct  2 16:55:19 2022
+# Process ID: 25188
 # Current directory: E:/VivadoProject/MyProject
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent44752 E:\VivadoProject\MyProject\MultiDisplay.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17532 E:\VivadoProject\MyProject\MyProject.xpr
 # Log file: E:/VivadoProject/MyProject/vivado.log
 # Journal file: E:/VivadoProject/MyProject\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project E:/VivadoProject/MyProject/MultiDisplay.xpr
+open_project E:/VivadoProject/MyProject/MyProject.xpr
 update_compile_order -fileset sources_1
-reset_project
