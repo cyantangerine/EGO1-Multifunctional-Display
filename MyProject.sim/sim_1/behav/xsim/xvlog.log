@@ -1,9 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/seg7.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module seg7
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/seg7_starcontrol.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module seg7_starcontrol
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProject/MyProject/MyProject.srcs/sources_1/new/viewer.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module viewer
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/VivadoProject/MyProject/MyProject.srcs/sim_1/new/sim_seg.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module sim_seg
-WARNING: [VRFC 10-3380] identifier 'x' is used before its declaration [E:/VivadoProject/MyProject/MyProject.srcs/sim_1/new/sim_seg.v:29]
